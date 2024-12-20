@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); /* memanggil font-family popins pada google font */
+
+*{
+    /* css reset untuk mereset tampilan default yang ada pada css */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    /* memberikan warna #081b29 pada body dan menetapkan warna text pada body menjadi #ededed  */
+    background-color: #081b29;
+    color: #ededed;
+}
+
+section.jumbotron{
+    height: 100vh; /* memberikan section jumbotron tinggi sebesar 100vh */
+    display: flex; /* menetapkan display flex agar lebih mudah mengatur elemennya */
+    align-items: center; /* memberikan align-items: center; untuk memposisikan elemen pada tengah secara vertikal */
+    padding: 0 10%; /* memberikan jarak menggunakan padding atas-bawah 0 dan kanan-kiri sebesar 10% */
+}
+section.jumbotron .content{
+    /* menetapkan max-width: 600px; pada class content agar tidak melebihi batas yang ditentukan */
+    max-width: 600px;
+}
+section.jumbotron .content h1{
+    /* menetapkan ukuran dan ketebalan h1 pada class content sebesar 54px dan tebal 700 */
+    font-size: 54px;
+    font-weight: 700;
+}
+section.jumbotron .content h3{
+    /* menetapkan ukuran dan ketebalan h3 pada class content sebesar 32px dan tebal 700 */
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0; /* memberikan warna text pada h3 menjadi #00abf0 */
+}
+section.jumbotron .content p{
+    /* menetapkan ukuran dan ketebalan p pada class content sebesar 16px dan tebal 400 */
+    font-size: 16px;
+    font-weight: 400;
+}
+section.jumbotron .container{
+    display: flex; /* memberikan display flex pada class container agar mudah diatur */
+    flex-direction: column; /* menetapkan arah flex nya menjadi column agar menjajar kebawah */
+    justify-content: center; /* menetapkan content yang ada pada class container menjadi tengah secara horizontal */
+    align-items: center; /* menetapkan content yang ada pada class container menjadi tengah secara vertikal */
+    padding: 0 10%; /* memberikan jarak padding pada class container sebesar atas-bawah 0 dan kanan-kiri 10% */
+    max-width: 600px; /* menetapkan max-width 600px */
+    width: 100%; /* menetapkan width sebesar 100% */
+    gap: 10px; /* memberikan gap antar elemen sebesar 10px */
+    margin-top: 135px; /* memberikan jarak atas menggunakan margin sebesar 135px */
+}
+
+/* style class input group */
+section.jumbotron .container .input-group{
+    display: flex;  /* memberikan display flex agar lebih mudah diatur */
+    flex-direction: row; /* menetapkan arah flex menjadi row agar ke pinggir */
+    justify-content: space-between; /* Mengubah menjadi space-between untuk sejajar */
+    align-items: center; /* menetapkan posisi element pada tengah secara vertikal */
+    width: 100%; /* memberikan nilai lebar 100% */
+    gap: 10px; /* memberikan gap antar elemen sebesar 10px */
+}
+section.jumbotron .container .input-group label{
+    font-size: 20px; /* menetapkan ukuran font pada label sebesar 20px  */
+    font-weight: 600; /* menetapkan ketebelan font sebesar 600  */
+    color: #ededed; /* menetapkan warna text  */
+    flex: 1; /* Menambahkan flex agar label dan input sejajar */
+}
+section.jumbotron .container .input-group input{
+    width: 100%; /* menetapkan nilai lebar 100%  */
+    padding: 10px; /* memberikan padding sebesar 10px  */
+    margin: 10px 0; /* memberikan margin atas-bawah 10px dan kiri-kanan 0  */
+    border: 1px solid #00abf0; /* memberikan border pada input sebesar 1px dan warna #00abf0   */
+    border-radius: 5px; /* memberikan border radius agar tumpul sebesar 5px  */
+    background-color: transparent; /* memberikan background color transparant */
+    color: #fff; /* menetapkan warna text menjadi putih */
+    flex: 2; /* Menambahkan flex agar label dan input sejajar */
+}
+
+/* style button */
+section.jumbotron .container button{
+    padding: 10px 20px; /* memberikan padding atas-bawah 10px dan kanan kiri 20px */
+    border: none; /* menetapkan border menjadi hilang pada button */
+    border-radius: 5px; /* menetapkan border radius 5px */
+    background-color: #00abf0; /* menetapkan warna pada button */
+    color: #fff; /* menetapkan warna text pada button */
+    font-size: 16px; /* menetapkan ukuran font pada button */
+    cursor: pointer; /* memberikan cursor secara pointor ketika berada pada button */
+    transition: background-color 0.3s; /* memberikan transisi */
+}
+section.jumbotron .container button:hover{
+    background-color: #008bb0; /* membrikan Warna saat hover */
+}
+
+/* style hasil akhir */
+section.jumbotron .result{
+    text-align: center; /* menetapkan text secara center */
+    margin-top: 20px; /* memberikan margin atas sebesar 20px */
+    padding: 10px; /* memberikan padding pada seluruh sisi sebesar 10px */
+    border: 1px solid #00abf0; /* memberikan border pada hasil akhir */
+    border-radius: 5px; /* memberikan border radius */
+    background-color: rgba(0, 171, 240, 0.1); /* Latar belakang hasil */
+}
