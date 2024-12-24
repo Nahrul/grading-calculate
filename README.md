@@ -1,11 +1,11 @@
-#Aplikasi Grading Calculate sederhana
-###aplikasi ini adalah aplikasi untuk menentukan nilai total mahasiswa berdasarkan niat Tugas, UTS, dan UAS. 
+# Aplikasi Grading Calculate sederhana
+### aplikasi ini adalah aplikasi untuk menentukan nilai total mahasiswa berdasarkan niat Tugas, UTS, dan UAS. 
 
 Nilai Tugas memiliki bobot nilai 0.3
 Nilai UTS memiliki bobot nilai 0.35
 Nilai UAS memiliki bobot nilai 0.35
 
-##Instalasi
+## Instalasi
 1. Download atau clone repository ini:
 ```bash
 git clone https://github.com/Nahrul/grading-calculate.git
@@ -19,4 +19,4 @@ pip install Flask
 python app.py
 ```
 
-###aplikasi bisa dibuka di browser via link yang tertera pada terminal 😊
+### aplikasi bisa dibuka di browser via link yang tertera pada terminal 😊
